@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(4, 17, 28);
+    margin: 0;
+    font-family: Agbalumo;
+    color: antiquewhite;
+}
+
+a{
+    color: inherit;
+}
+
+@font-face{
+    font-family: Agbalumo;
+    src: url(assets/YoungSerif-Regular.ttf);
+}
+
+
+
+#topScreen{
+    margin: 0;
+    display: flex;
+}
+#topScreen div{
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+#topScreen div h3{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+
+#intro{
+    background: url(assets/portfolio-website-top-image.svg) no-repeat;
+    background-position-y: -40px;
+    background-position-x: center;
+    background-size: 1100px;
+    margin: 50px;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#intro h1{
+    margin: 5px;
+    font-size: 50px;
+}
+#intro h2{
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+
+
+#introText{
+    margin: 50px;
+}
+
+
+#snippets{
+    text-align: center;
+}
+#snippets div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+#snippets div img{
+    box-shadow: 0 0 0 1px blue;
+
+}
+
+
+
+@media screen and (max-width: 970px),screen and (orientation: portrait) {
+    #intro{
+        background: url(assets/portfolio-website-top-image-small.svg) no-repeat;
+        background-position: center;
+        background-size: 600px;
+        margin-left: 0 auto;
+        height: 350px;
+    }
+}
