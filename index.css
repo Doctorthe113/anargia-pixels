@@ -32,17 +32,18 @@ h1, h2, h3{
 }
 
 
-#topScreen{
+
+#header{
     margin: 5px;
     display: flex;
 }
-#topScreen div{
+#header div{
     background-color: rgba(0, 0, 0, 0);
     margin-left: auto;
     display: flex;
     justify-content: space-evenly;
 }
-#topScreen div h3{
+#header div h3{
     margin-top: 10px;
     margin-right: 10px;
     font-weight: bold;

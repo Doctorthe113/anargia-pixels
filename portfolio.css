@@ -1,0 +1,153 @@
+body{
+    background-image: linear-gradient(rgb(21, 32, 58), rgb(11, 15, 26));
+    margin: 0;
+    font-family: MontserratThin;
+    color: antiquewhite;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+h1, h2, h3{
+    font-weight: inherit;
+}
+
+@font-face{
+    font-family: YoungSerif-Regular;
+    src: url(assets/font/YoungSerif-Regular.ttf);
+}
+@font-face{
+    font-family: MontserratThin;
+    src: url(assets/font/Montserrat-Thin.ttf);
+}
+@font-face{
+    font-family: MontserratBold;
+    src: url(assets/font/Montserrat-Bold.ttf);
+}
+@font-face{
+    font-family: MontserratRegular;
+    src: url(assets/font/Montserrat-Regular.ttf);
+}
+
+
+
+#header{
+    margin: 5px;
+    display: flex;
+}
+#header div{
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+#header div h3{
+    margin-top: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+
+
+#slideshow{
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+}
+#slideshowImageContainer{
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+@keyframes slideshow{
+    0% {left: 0px;}
+    10% {left: 0px;}
+    20% {left: 0px;}
+    30% {left: -600px;}
+    40% {left: -600px;}
+    50% {left: -600px;}
+    60% {left: -600px;}
+    70% {left: -1200px;}
+    80% {left: -1200px;}
+    90% {left: -1200px;}
+    100% {left: 0px;}
+}
+.slideshowImages{
+    position: relative;
+    animation-name: slideshow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+
+#portfolio{
+    margin: 40px;
+    text-align: center;
+}
+#portfolioImages{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 30px;
+    /* column-gap: 5px; */
+}
+#portfolioImages div{
+    max-width: 350px;
+    min-width: 350px;
+    height: 300px;
+    flex-basis: 25%;
+    box-shadow: 0 0 0 5px rgb(21, 32, 58);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#portfolioImages div img{
+    width: 100%;
+}
+
+
+
+#footer{
+    margin: 40px;
+    color: azure;
+}
+
+
+
+@media screen and (max-width: 610px){
+    #slideshow{
+        margin: 0 auto;
+        width: 400px;
+        text-align: center;
+    }
+    #slideshowImageContainer{
+        display: flex;
+        overflow: hidden;
+        scroll-behavior: smooth;
+    }
+    @keyframes slideshow{
+        0% {left: 0px;}
+        10% {left: 0px;}
+        20% {left: 0px;}
+        30% {left: -400px;}
+        40% {left: -400px;}
+        50% {left: -400px;}
+        60% {left: -400px;}
+        70% {left: -800px;}
+        80% {left: -800px;}
+        90% {left: -800px;}
+        100% {left: 0px;}
+    }
+    .slideshowImages{
+        width: 400px;
+        position: relative;
+        animation-name: slideshow;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-play-state: running;
+    }
+}
