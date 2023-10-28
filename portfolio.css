@@ -84,6 +84,11 @@ h1, h2, h3{
     and loosing aspect ratio */
     align-self: center;
 }
+#slideshowImageContainer:hover{
+    transition: 0.5s;
+    scale: 1.1;
+}
+
 
 
 #portfolio{
@@ -110,6 +115,10 @@ h1, h2, h3{
 }
 #portfolioImages div img{
     width: 100%;
+}
+#portfolioImages div img:hover{
+    transition: 0.5s;
+    scale: 1.4;
 }
 
 

@@ -94,7 +94,9 @@ h1, h2, h3{
 }
 #snippets div img{
     box-shadow: 0 0 0 1px rgb(21, 32, 58);
-
+    /* This apparently keeps the images from being streched
+    and loosing aspect ratio */
+    align-self: center;
 }
 
 
