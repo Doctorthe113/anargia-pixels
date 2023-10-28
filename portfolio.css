@@ -74,12 +74,15 @@ h1, h2, h3{
     90% {left: -1200px;}
     100% {left: 0px;}
 }
-.slideshowImages{
+#slideshowImageContainer img{
     position: relative;
     animation-name: slideshow;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-play-state: running;
+    /* This apparently keeps the images from being streched
+    and loosing aspect ratio */
+    align-self: center;
 }
 
 
