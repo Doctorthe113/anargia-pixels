@@ -105,14 +105,16 @@ h1, h2, h3{
     margin: 40px;
     color: azure;
 }
-#footer pre{
+#footer pre span{
+    font-size: 15px;
     font-family: MontserratThin;
 }
 
 
 
 
-@media screen and (max-width: 970px),screen and (orientation: portrait) {
+/* @media screen and (max-width: 970px),screen and (orientation: portrait) { */
+@media screen and (max-width: 970px){
     #intro{
         background: url(assets/portfolio-website-top-image-small.svg) no-repeat;
         background-position: center;
@@ -125,5 +127,50 @@ h1, h2, h3{
     }
     #intro h2{
         font-size: 18px;
+    }
+
+
+
+    #introText{
+        margin: 20px
+    }
+
+
+
+    #footer{
+        margin: 20px
+    }
+}
+
+
+
+@media screen and (max-width: 430px){
+    #intro{
+        background: url(assets/portfolio-website-top-image-small.svg) no-repeat;
+        background-position: center;
+        background-size: 400px;
+        margin-left: 0 auto;
+        height: 230px;
+    }
+    #intro h1{
+        font-size: 35px;
+    }
+    #intro h2{
+        font-size: 15px;
+    }
+
+
+
+    #introText{
+        margin: 18px;
+    }
+
+
+
+    #footer{
+        margin: 20px;
+    }
+    #footer pre span{
+        font-size: 13px;
     }
 }
