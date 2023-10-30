@@ -1,12 +1,11 @@
 html{
-    overflow: hidden;
+    height: fit-content;
 }
 body{
     background-image: linear-gradient(rgb(21, 32, 58), rgb(11, 15, 26));
     margin: 0;
     font-family: MontserratThin;
     color: antiquewhite;
-    overflow:visible;
 }
 
 a{
