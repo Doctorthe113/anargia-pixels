@@ -9,9 +9,9 @@
    id="svg5"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    sodipodi:docname="Anargia.svg"
-   inkscape:export-filename="favicon.png"
-   inkscape:export-xdpi="13"
-   inkscape:export-ydpi="13"
+   inkscape:export-filename="anargia.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -29,9 +29,9 @@
      showgrid="false"
      inkscape:lockguides="false"
      showguides="true"
-     inkscape:zoom="1"
-     inkscape:cx="232"
-     inkscape:cy="207"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="250.31579"
+     inkscape:cy="197.28279"
      inkscape:window-width="1920"
      inkscape:window-height="1057"
      inkscape:window-x="-8"
@@ -256,6 +256,78 @@
          result="composite2"
          id="feComposite1038" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1040-6"
+       x="-0.0023195082"
+       y="-0.022797512"
+       width="1.0084896"
+       height="1.0834408">
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1030-8" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1032-7" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="0"
+         result="blur"
+         id="feGaussianBlur1034-4" />
+      <feOffset
+         dx="3.3"
+         dy="3.3"
+         result="offset"
+         id="feOffset1036-5" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1038-9" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3826"
+       x="-0.0056998294"
+       y="-0.0092773241"
+       width="1.0218786"
+       height="1.0356107">
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3816" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3818" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="0"
+         result="blur"
+         id="feGaussianBlur3820" />
+      <feOffset
+         dx="5"
+         dy="5"
+         result="offset"
+         id="feOffset3822" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3824" />
+    </filter>
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -263,13 +335,23 @@
      id="layer1"
      transform="translate(-227.45146,-175.45867)">
     <rect
-       style="display:none;fill:#1f1f1f;fill-opacity:1;stroke:#924f0d;stroke-width:6.4;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       style="display:none;fill:#1f1f1f;fill-opacity:1;stroke:#924f0d;stroke-width:3.68362;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
        id="rect27076"
-       width="907.58252"
-       height="435.65997"
-       x="160.35995"
-       y="163.14076"
-       ry="0.10048136" />
+       width="466.33539"
+       height="280.88312"
+       x="229.29327"
+       y="177.30048"
+       ry="0.064783357"
+       inkscape:label="grey" />
+    <rect
+       style="display:none;fill:#102850;fill-opacity:1;stroke:#924f0d;stroke-width:5.43933;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter3826)"
+       id="rect11228"
+       width="477.1485"
+       height="293.15189"
+       x="222.87602"
+       y="170.86247"
+       ry="0.35263813"
+       inkscape:label="blue" />
     <g
        id="g2379"
        inkscape:label="moon">

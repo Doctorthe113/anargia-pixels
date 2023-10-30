@@ -76,7 +76,7 @@ h1, h2, h3{
 
 
 #introText{
-    margin: 50px;
+    margin: 40px;
 }
 #introText h2{
     font-family: MontserratRegular;
@@ -105,6 +105,10 @@ h1, h2, h3{
     margin: 40px;
     color: azure;
 }
+#footer pre{
+    font-family: MontserratThin;
+}
+
 
 
 
