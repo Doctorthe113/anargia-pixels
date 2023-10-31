@@ -114,7 +114,8 @@ h1, h2, h3{
     justify-content: center;
 }
 #portfolioImages div img{
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 #portfolioImages div img:hover{
     transition: 0.5s;
