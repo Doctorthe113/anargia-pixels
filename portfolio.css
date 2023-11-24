@@ -198,17 +198,9 @@ hr{
         scroll-behavior: smooth;
     }
     @keyframes slideshow{
-        0% {left: 0px;}
-        10% {left: 0px;}
-        20% {left: 0px;}
-        30% {left: -400px;}
-        40% {left: -400px;}
-        50% {left: -400px;}
-        60% {left: -400px;}
-        70% {left: -800px;}
-        80% {left: -800px;}
-        90% {left: -800px;}
-        100% {left: 0px;}
+        0%, 10%, 20%, 100% {left: 0px;}
+        30%, 40%, 50%, 60% {left: -400px;}
+        70%, 80%, 90% {left: -800px;}
     }
     .slideshowImages{
         width: 400px;
