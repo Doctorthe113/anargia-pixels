@@ -14,6 +14,13 @@ h1, h2, h3{
     font-weight: inherit;
 }
 
+hr{
+    background-color: rgba(105, 52, 0, 1);
+    height: 3px;
+    border: none;
+}
+
+
 
 
 @font-face{
@@ -95,13 +102,15 @@ h1, h2, h3{
     flex-wrap: wrap;
     justify-content: center;
     row-gap: 20px;
+    column-gap: 20px;
 }
 #snippetsImages div{
     max-width: 250px;
     min-width: 250px;
     height: 200px;
     flex-basis: 25%;
-    box-shadow: 0 0 0 5px rgb(21, 32, 58);
+    border-radius: 20px;
+    box-shadow: 0 0 0 3px rgba(105, 52, 0, 1);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,7 +128,7 @@ h1, h2, h3{
 
 #footer{
     margin: 40px;
-    color: azure;
+    color: antiquewhite;
 }
 #footer pre span{
     font-size: 15px;
